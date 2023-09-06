@@ -22,7 +22,6 @@ public class FactoryConnector {
 		comboPooled.setMinPoolSize(5);
 		comboPooled.setMaxPoolSize(20);
 		
-		
 		this.dataSource = comboPooled;
 	}
 	

@@ -1,5 +1,4 @@
 package testeOperacoesSQL;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -7,13 +6,13 @@ import java.sql.SQLException;
 public class ApagandoRegistros {
 
 	public static void main(String[] args) throws SQLException {
-		FactoryConnector conDB = new FactoryConnector();
-		Connection con = conDB.iniciarConexao();
-		String sql = "DELETE FROM PRODUTO WHERE id >= ? ";
 		
-		PreparedStatement stm = con.prepareStatement(sql);
-		LinhasRemovidas(stm);
-		
+		try(Connection con = new FactoryConnector().iniciarConexao()){
+			
+			String sql = "DELETE FROM PRODUTO WHERE id >= ? ";
+			PreparedStatement stm = con.prepareStatement(sql);
+			LinhasRemovidas(stm);
+		}
 	}
 	
 	private static void LinhasRemovidas(PreparedStatement stm) throws SQLException {

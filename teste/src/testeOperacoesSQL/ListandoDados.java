@@ -22,7 +22,6 @@ public class ListandoDados {
 	}
 	
 	
-	
 	private static void listarItensDB(PreparedStatement stm) throws SQLException{
 		
 		stm.execute();

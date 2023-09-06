@@ -48,8 +48,8 @@ public class InserirDados {
 	public static void inserirDados(String nomeProd, String descProd, PreparedStatement stm) throws Exception {
 		stm.setString(1, nomeProd);
 		stm.setString(2, descProd);
-		
 		stm.execute();
+		
 		try(ResultSet result = stm.getGeneratedKeys()){
 			while (result.next()) {
 				Integer id = result.getInt(1);

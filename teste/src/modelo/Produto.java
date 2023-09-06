@@ -1,7 +1,4 @@
 package modelo;
-
-import com.mchange.v2.codegen.bean.PropsToStringGeneratorExtension;
-
 public class Produto {
 	
 		private String nome;
@@ -26,13 +23,20 @@ public class Produto {
 			return descricao;
 		}
 		
-//		@Override
+		public Integer getId(){
+			return id;
+		}
+		
+//		
 //		public String toString() {
 //			return String.format("O produto criado foi: %d, %s, %s ", this.id, this.nome, this.descricao);
 //		}
-
+		
+		@Override
 		public String toString() {
-			return String.format("teste %s", this.nome);
+			
+			return String.format("O produto adicionado foi: %d %s %s",this.id, this.nome, this.descricao);
+			
 			
 		}
 		
