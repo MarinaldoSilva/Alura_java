@@ -19,7 +19,7 @@ public class OperacoesSQLComProdutos {
 		Produto produto = new Produto("motorola", "razer 2");
 		
 		try(Connection con = new FactoryConnector().iniciarConexao()){
-			ProdutoDAO contolerProduto = new ProdutoDAO(con);
+			ProdutoDAO produtoDAO = new ProdutoDAO(con);
 			
 			//contolerProduto.salvarProdutoNoBnaco(produto1);
 			//contolerProduto.salvarProdutoNoBnaco(produto);
