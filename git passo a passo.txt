@@ -1,0 +1,23 @@
+git init
+
+git config local --user.name "nome"
+git config local --user.email "email@email.com"
+git add index.html
+git commigit branch -m principal
+git branch -m principal
+git remote add principal git@github.com:MarinaldoSilva/Alura.git
+git remote -v
+git status
+git remote remove principal
+git push origin principal
+
+
+ssh-keygen -t ed25519 -C "seuemail@email.com"
+https://github.com/settings/ssh/new
+pega a chave publica que foi gerada na pasta do usuário
+ssh-ed25519 AAAAC3NzaC1lZDsdzhfcsakljcfbsksae323AHvHD+6tN6sWC8UNB5mBRZ0F+e7c0nc8i7Nrl email@seuemail.com
+
+git push origin principal
+
+
+
