@@ -1,5 +1,7 @@
+# Combo de projetos
+
 # 💰 Conversor de Moedas
-Este projeto é um conversor de moedas simples e prático, ideal para quem precisa realizar conversões de valores de forma rápida. Utilizando a linguagem Java.
+Este projeto é um conversor de moedas simples que não está conectado a um API, logo não está em atualzação em tempo real, foi feito na linguagem Java.
 Características:
 
 Converão de cotações fixas
@@ -20,15 +22,9 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-origina
 </div>
 
 💻 Sistema de Busca em Loja Virtual
-Um sistema básico de busca de itens para uma loja virtual, desenvolvido com Java e MySQL. Ele permite que os usuários pesquisem produtos por nome.
-
-Características:
-
-Busca: Pesquisa de produtos por nome e listagem de categorias
-
-Conexão com Banco de Dados: Utiliza o MySQL para armazenar e gerenciar o catálogo de produtos.
-
-Resultados Organizados: Exibição clara e formatada dos itens encontrados.
+Um sistema básico de busca de itens para uma loja virtual, feito com Java e MySQL, projeto simples, porém serve como base para buscar determinados itens cadastrados no banco de dados.
+A pesquisa de produtos pode ser feita por nome e também é possível listagem de categorias
+Para conexão com o banco de dados foi utilizado o MySQl.
 
 Tecnologias:
 
@@ -51,7 +47,5 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-origi
 />
 </div>
 
-🚀 Exercícios de Java
-Esta seção contém uma série de exercícios e desafios para aprimorar as habilidades em programação Java, focando em lógica, estruturas de dados e algoritmos.
-
-Lógica de Programação: Resolução de problemas matemáticos e lógicos.
+Exercícios de Java
+Lógica de Programação: Resolução de problemas.
